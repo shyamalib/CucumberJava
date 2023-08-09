@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiplication test</title>
+</head>
+<body>
+
+<h1>Multiplication test</h1>
+
+<div id="testcases">
+<p><strong>Test Case 1:</strong> Multiplying 1 by 2 </p>
+<p><strong>Test Case 2:</strong> Expected Result: 2 </p>
+</div>
+
+<button onclick="execute()">Execute Test
+</button>
+
+<p id="result"></p >
+
+<script>
+function execute(){
+const num1 = 1;
+const num2 = 2;
+const result = num1 * num2;
+
+document.getElementById("result").innerText= `${num1} * ${num2} = ${result}`;
+
+}
+</script>
+</body>
+</html>
